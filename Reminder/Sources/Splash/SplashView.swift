@@ -30,7 +30,7 @@ class SplashView: UIView {
         let stack = UIStackView(arrangedSubviews: [logoImageView, titleLogoImageView])
         stack.axis = .horizontal
         stack.alignment = .center
-        stack.spacing = 4 // ajuste fino aqui 👈
+        stack.spacing = 4
         stack.translatesAutoresizingMaskIntoConstraints = false
         return stack
     }()

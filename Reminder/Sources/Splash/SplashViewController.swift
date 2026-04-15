@@ -20,6 +20,7 @@ class SplashViewController: UIViewController {
     
     private func setUp() {
         self.view.addSubview(contentView)
+        self.navigationController?.isNavigationBarHidden = true	
         
         setUpConstraints()
     }
